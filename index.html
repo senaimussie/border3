@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Style and Text Formatting Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .dotted-border {
+            border-left: 3px dotted red;
+            border-bottom: 3px dotted ;
+            border-top: 3px dotted ;
+            border-right: 3px dotted red;
+            margin: 10px 0;
+            padding: 5px;
+        }
+
+        .rounded-corners {
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        .yellow-background {
+            background-color: yellow;
+        }
+
+        .text-box {
+            border: 1px solid black;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .text-box h2 {
+            color: green;
+            text-align: center;
+        }
+
+        .text-box p {
+            text-align: center;
+            font-style: italic;
+        }
+
+        .text-box a {
+            color: blue;
+        }
+        .imgs {
+            background-image: url(./imgf.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 500px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>The border-style Property</h1>
+    <p class="dotted-border">A border</p>
+    
+    <div class="rounded-corners">
+        Rounded corners!
+    </div>
+    
+    <div class="rounded-corners yellow-background">
+        Rounded corners!
+    </div>
+
+    <div class="text-box">
+        <h2>TEXT FORMATTING</h2>
+        <p>This text is styled <a href="bd.html">"Try it"</a> link.</p>
+    </div>
+    <div class="imgs">
+    </div>
+</body>
+</html>
+
